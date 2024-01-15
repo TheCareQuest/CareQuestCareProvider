@@ -1,38 +1,33 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "charityTitle": "Free Education Drive",
+    "description": "Sponsor a child's education for their bright future.Join us in providing quality education to all. ",
+    "image": "./edu.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "charityTitle": "Clothing Bank",
+    "description": "Do you have old clothing or household items want to donate? Here is your chance to participate",
+    "image": "./clothes.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "charityTitle": "Free Medical Camp",
+    "description": "Join free medical camp providing essential healthcare services to underserved communities.",
+    "image": "./medicalc.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "charityTitle": "Disaster Fund",
+    "description": "A disaster management fund finances reactive measures for recovery from disasters.",
+    "image": "./disaster.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "charityTitle": " Wheelchair Drive",
+    "description": "Donate a wheelchair initiative aims to improve the lives of individuals with mobility challenges",
+    "image": "./wheelchaird.png"
   },
+
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "charityTitle": "Ration Drive",
+    "description": "A ration drive is a charitable initiative focused on distributing essential food items to those in need.",
+    "image": "./rationdrive.png"
   }
 ]

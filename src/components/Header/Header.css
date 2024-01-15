@@ -1,0 +1,80 @@
+
+/* Header.css */
+
+.h-wrapper {
+  background-color: black;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.h-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto; /* Move the logo to the left */
+}
+
+.h-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h-menu a {
+  
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 16px;
+}
+.h-menu a:hover {
+  
+  
+  color: orange;
+ 
+}
+
+
+.menu-icon {
+  display: none; /* Hide the menu icon by default */
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  /* Apply styles when the screen width is 800 pixels or less */
+  .logo {
+    margin-right: 15px; /* Adjust margin for responsiveness */
+  }
+
+  .h-menu {
+    display: none; /* Hide the navigation links by default */
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    padding-top: 60px;
+    z-index: 1;
+    transition: right 0.3s ease-in-out;
+  }
+
+  .h-menu.show {
+    right: 0;
+  }
+
+  .h-menu a {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .menu-icon {
+    display: block; /* Show the menu icon for smaller screens */
+    
+  }
+}
