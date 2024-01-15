@@ -4,7 +4,7 @@
 .h-wrapper {
   background-color: black;
   border-bottom: 1px solid #ddd;
-  
+  display: inline;
 }
 
 .h-container {

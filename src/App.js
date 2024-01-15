@@ -8,6 +8,7 @@ import CharityDetails from './pages/CharityDetails/CharityDetails.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Profile from './pages/Profile/Profile.jsx';
+import RequestPage from './pages/RequestPage/RequestPage.jsx';
 function App() {
   const queryClient = new QueryClient();
 
@@ -22,7 +23,7 @@ function App() {
               <Route path="OurCampaigns" element={<OurCampaigns />} />
               <Route path="OurCampaigns/:charityTitle" element={<CharityDetails />} />
               <Route path="Profile" element={<Profile />} />
-              
+              <Route path="RequestPage" element={<RequestPage />} />
              
             </Route>
           </Routes>
